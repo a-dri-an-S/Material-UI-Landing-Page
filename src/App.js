@@ -1,9 +1,16 @@
+import { Container, CssBaseline } from '@material-ui/core';
+import GridLayout from './components/GridLayout';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+      <CssBaseline />
+      <Container>
+        <main>
+          <GridLayout />
+        </main>
+      </Container>
     </div>
   );
 }
