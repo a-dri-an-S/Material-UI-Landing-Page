@@ -26,11 +26,7 @@ const MainGridItem = () => {
         <Container className={mainContainer}>
             <Card>
                 <Grid container>
-                    <Grid 
-                        className={mainItem}
-                        md={6}
-                        item 
-                    >
+                    <Grid item className={mainItem} md={6} >
                         <Typography variant="h2">
                             Ever see a dead body?
                         </Typography>
