@@ -2,6 +2,7 @@ import { Grid, makeStyles } from "@material-ui/core";
 import MainGridItem from "./MainGridItem";
 import ProductInformation from "./ProductInformation";
 import Pricing from "./Pricing";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
@@ -25,8 +26,11 @@ const GridLayout = () => {
             <Grid item>
                 <Pricing />
             </Grid>
+            <Grid item>
+                <Footer />
+            </Grid>
         </Grid>
     );
 }
 
-export default GridLayout;
+export default GridLayout; 
